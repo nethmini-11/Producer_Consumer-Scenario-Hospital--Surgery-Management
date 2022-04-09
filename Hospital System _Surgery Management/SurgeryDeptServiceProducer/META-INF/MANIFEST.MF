@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SurgeryDepartmentServiceProducer
+Bundle-SymbolicName: SurgeryDepartmentServiceProducer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.saassignment.osgi.surgerydepartmentserviceproducer.Activator
+Bundle-Vendor: GunawardhanaHPMN_ServiceProviders
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Automatic-Module-Name: SurgeryDepartmentServiceProducer
+Import-Package: org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: com.saassignment.osgi.billingservice,
+ com.saassignment.osgi.datastore,
+ com.saassignment.osgi.managementservice,
+ com.saassignment.osgi.model,
+ com.saassignment.osgi.surgeryservice
